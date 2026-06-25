@@ -41,7 +41,7 @@ class BookPolicy
      */
     public function update(User $user, Book $book): bool
     {
-        return false;
+         return $this->isAdmin($user);
     }
 
     /**
@@ -49,7 +49,7 @@ class BookPolicy
      */
     public function delete(User $user, Book $book): bool
     {
-        return false;
+         return $this->isAdmin($user);
     }
 
     /**
