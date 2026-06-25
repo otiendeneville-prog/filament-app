@@ -8,6 +8,10 @@ use Illuminate\Auth\Access\Response;
 
 class BookPolicy
 {
+    public function isAdmin(User $user): bool
+    {
+        return  in_array($user->email, config('admin.emails', []));
+    }
     /**
      * Determine whether the user can view any models.
      */
