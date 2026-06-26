@@ -5,6 +5,7 @@ namespace App\Filament\Admin\Resources;
 use App\Filament\Admin\Resources\BookResource\Pages;
 use App\Models\Book;
 use Filament\Forms;
+use Filament\Forms\Components\FileUpload;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
@@ -31,6 +32,7 @@ class BookResource extends Resource
                     ->maxLength(255),
                 TextInput::make('description')
                     ->maxLength(500),
+                FileUpload::make('image'),
             ]);
     }
 
@@ -71,5 +73,4 @@ class BookResource extends Resource
 {
     return true;
 }
-
 }
