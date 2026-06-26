@@ -12,7 +12,7 @@ use Filament\Panel;
 
 
 
-class User extends Authenticatable implements FilamentUser
+class User extends Authenticatable 
 {
     /** @use HasFactory<UserFactory> */
     use HasFactory, Notifiable;
@@ -50,11 +50,11 @@ class User extends Authenticatable implements FilamentUser
             'password' => 'hashed',
         ];
     }
-   public function canAccessPanel(Panel $panel): bool
-  {
-    if($panel ->getId()== 'admin'){
-        return in_array($this->email, config( 'admin.emails',[]));
-    }
-    return true;
-  }
+//    public function canAccessPanel(Panel $panel): bool
+//   {
+//     if($panel ->getId()== 'admin'){
+//         return in_array($this->email, config( 'admin.emails',[]));
+//     }
+//     return true;
+//   }
 }
