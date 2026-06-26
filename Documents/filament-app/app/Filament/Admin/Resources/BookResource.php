@@ -37,6 +37,7 @@ class BookResource extends Resource
             ->columns([
                 Tables\Columns\TextColumn::make('title')->searchable()->sortable(),
                 Tables\Columns\TextColumn::make('author')->searchable()->sortable(),
+                Tables\Columns\TextColumn::make('description')->limit(50),
 
             ])
             ->filters([
