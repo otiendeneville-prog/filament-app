@@ -35,7 +35,8 @@ class BookResource extends Resource
     {
         return $table
             ->columns([
-                //
+                Tables\Columns\TextColumn::make('title')->searchable()->sortable(),
+                
             ])
             ->filters([
                 //
