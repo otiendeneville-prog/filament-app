@@ -3,31 +3,32 @@
 namespace App\Filament\Admin\Resources;
 
 use App\Filament\Admin\Resources\BookResource\Pages;
-use App\Filament\Admin\Resources\BookResource\RelationManagers;
 use App\Models\Book;
 use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
-use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\SoftDeletingScope;
 use Filament\Forms\Components\TextInput;
-
 
 class BookResource extends Resource
 {
     protected static ?string $model = Book::class;
 
-    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?string $navigationIcon = 'heroicon-o-book-open';
 
     public static function form(Form $form): Form
     {
         return $form
             ->schema([
-                TextInput::make('title')->required(),
-                TextInput::make('author')->required(),
-                TextInput::make('description')->required(),
+                TextInput::make('title')
+                    ->required()
+                    ->maxLength(255),
+                TextInput::make('author')
+                    ->required()
+                    ->maxLength(255),
+                TextInput::make('description')
+                    ->maxLength(500),
             ]);
     }
 
@@ -39,11 +40,8 @@ class BookResource extends Resource
                 Tables\Columns\TextColumn::make('author')->searchable()->sortable(),
                 Tables\Columns\TextColumn::make('description')->limit(50),
                 Tables\Columns\TextColumn::make('created_at')->dateTime()->sortable(),
-
             ])
-            ->filters([
-                //
-            ])
+            ->filters([])
             ->actions([
                 Tables\Actions\EditAction::make(),
             ])
@@ -56,9 +54,7 @@ class BookResource extends Resource
 
     public static function getRelations(): array
     {
-        return [
-            //
-        ];
+        return [];
     }
 
     public static function getPages(): array
