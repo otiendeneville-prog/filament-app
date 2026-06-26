@@ -18,6 +18,8 @@ class BookResource extends Resource
     protected static ?string $navigationIcon = 'heroicon-o-book-open';
 
     public static function form(Form $form): Form
+
+    
     {
         return $form
             ->schema([
@@ -65,4 +67,9 @@ class BookResource extends Resource
             'edit' => Pages\EditBook::route('/{record}/edit'),
         ];
     }
+    public static function canCreate(): bool
+{
+    return true;
+}
+
 }
