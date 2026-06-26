@@ -25,9 +25,9 @@ class BookResource extends Resource
     {
         return $form
             ->schema([
-                TextInput::make('title')->required,
-                TextInput::make('author')->required,
-                TextInput::make('description')->required,
+                TextInput::make('title')->required(),
+                TextInput::make('author')->required(),
+                TextInput::make('description')->required(),
             ]);
     }
 
