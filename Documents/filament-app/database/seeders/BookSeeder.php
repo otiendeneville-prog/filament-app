@@ -45,12 +45,12 @@ class BookSeeder extends Seeder
                  'image' => 'covers/5.png',
                 'description' => 'Red sands stretch endlessly, concealing ruins of forgotten empires. A lone wanderer searches for a lost artifact, uncovering treachery, legends, and secrets buried beneath centuries of shifting desert winds.',
          ],
-    //         [
-    //             'title' => 'The Moonlist Masquerade',
-    //             'author' => 'Isabelle Corwin',
-    //             'image' => 'covers/6.png',
-    //             'description' => 'Beneath moonlit chandeliers, masked guests dance through intrigue and deception. Hidden agendas and forbidden romances entwine, where one secret unmasking could topple kingdoms and rewrite the fates of everyone attending.',
-    //         ],
+            [
+                'title' => 'The Moonlist Masquerade',
+               'author' => 'Isabelle Corwin',
+                'image' => 'covers/6.png',
+                'description' => 'Beneath moonlit chandeliers, masked guests dance through intrigue and deception. Hidden agendas and forbidden romances entwine, where one secret unmasking could topple kingdoms and rewrite the fates of everyone attending.',
+           ],
     //         [
     //             'title' => 'Fragments of Tomorrow',
     //             'author' => 'Caleb Winters',
