@@ -33,12 +33,12 @@ class BookSeeder extends Seeder
                 'image' => 'covers/3.png',
                  'description' => 'Fog-draped waters conceal more than shifting tides. Sailors speak of voices beneath the waves, and one haunted captain must decide whether to chase freedom or succumb to the sea’s eerie call.',
           ],
-    //         [
-    //             'title' => 'Song of the Hollow Woods',
-    //             'author' => 'Evelyn Harrow',
-    //             'image' => 'covers/4.png',
-    //             'description' => 'Deep in the woods, a melody drifts through the trees. Following it leads to hidden realms where nature whispers truths and ancient guardians awaken to defend their sacred sanctuary.',
-    //         ],
+            [
+                'title' => 'Song of the Hollow Woods',
+                 'author' => 'Evelyn Harrow',
+                 'image' => 'covers/4.png',
+                'description' => 'Deep in the woods, a melody drifts through the trees. Following it leads to hidden realms where nature whispers truths and ancient guardians awaken to defend their sacred sanctuary.',
+             ],
     //         [
     //             'title' => 'Beneath the Crimson Dunes',
     //             'author' => 'Tobias Greaves',
