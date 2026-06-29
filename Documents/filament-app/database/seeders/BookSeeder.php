@@ -93,12 +93,12 @@ class BookSeeder extends Seeder
                 'image' => 'covers/13.png',
                  'description' => 'Among towering gears and ticking brass lies a key to timeless mysteries. The clockmaker guards his secret, knowing that unlocking it could reshape destiny, or unravel the fabric of reality.',
              ],
-    //         [
-    //             'title' => 'When the Sky Fell Silent',
-    //             'author' => 'Adrian Locke',
-    //             'image' => 'covers/14.png',
-    //             'description' => 'The world froze when the sky shattered into silence. Carrying only a lantern, a wanderer journeys through broken lands seeking answers, unaware that hope still glimmers within the quiet darkness.',
-    //         ],
+            [
+               'title' => 'When the Sky Fell Silent',
+                'author' => 'Adrian Locke',
+                 'image' => 'covers/14.png',
+                'description' => 'The world froze when the sky shattered into silence. Carrying only a lantern, a wanderer journeys through broken lands seeking answers, unaware that hope still glimmers within the quiet darkness.',
+             ],
     //         [
     //             'title' => 'Echoes in Glass Tower',
     //             'author' => 'Selene Marrow',
