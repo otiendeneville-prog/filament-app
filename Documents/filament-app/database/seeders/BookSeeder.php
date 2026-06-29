@@ -57,12 +57,12 @@ class BookSeeder extends Seeder
                 'image' => 'covers/7.png',
                'description' => 'In a fractured city of neon towers, fragments of possible futures collide. A visionary must choose between preserving order or embracing chaos to reshape tomorrow’s uncertain, fragile horizon.',
             ],
-    //         [
-    //             'title' => 'The Cartographer’s Curse',
-    //             'author' => 'Lillian Storme',
-    //             'image' => 'covers/8.png',
-    //             'description' => 'Every map drawn by the cursed cartographer reshapes the world itself. When a daring apprentice discovers this power, she must decide whether to chart salvation or unleash devastating ruin.',
-    //         ],
+            [
+               'title' => 'The Cartographer’s Curse',
+                'author' => 'Lillian Storme',
+                'image' => 'covers/8.png',
+                'description' => 'Every map drawn by the cursed cartographer reshapes the world itself. When a daring apprentice discovers this power, she must decide whether to chart salvation or unleash devastating ruin.',
+           ],
     //         [
     //             'title' => 'Ashes of the Starlit Crown',
     //             'author' => 'Damon Crossfield',
