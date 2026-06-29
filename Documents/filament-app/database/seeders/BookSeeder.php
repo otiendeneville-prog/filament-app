@@ -51,12 +51,12 @@ class BookSeeder extends Seeder
                 'image' => 'covers/6.png',
                 'description' => 'Beneath moonlit chandeliers, masked guests dance through intrigue and deception. Hidden agendas and forbidden romances entwine, where one secret unmasking could topple kingdoms and rewrite the fates of everyone attending.',
            ],
-    //         [
-    //             'title' => 'Fragments of Tomorrow',
-    //             'author' => 'Caleb Winters',
-    //             'image' => 'covers/7.png',
-    //             'description' => 'In a fractured city of neon towers, fragments of possible futures collide. A visionary must choose between preserving order or embracing chaos to reshape tomorrow’s uncertain, fragile horizon.',
-    //         ],
+          [
+               'title' => 'Fragments of Tomorrow',
+               'author' => 'Caleb Winters',
+                'image' => 'covers/7.png',
+               'description' => 'In a fractured city of neon towers, fragments of possible futures collide. A visionary must choose between preserving order or embracing chaos to reshape tomorrow’s uncertain, fragile horizon.',
+            ],
     //         [
     //             'title' => 'The Cartographer’s Curse',
     //             'author' => 'Lillian Storme',
