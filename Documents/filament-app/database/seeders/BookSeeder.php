@@ -39,12 +39,12 @@ class BookSeeder extends Seeder
                  'image' => 'covers/4.png',
                 'description' => 'Deep in the woods, a melody drifts through the trees. Following it leads to hidden realms where nature whispers truths and ancient guardians awaken to defend their sacred sanctuary.',
              ],
-    //         [
-    //             'title' => 'Beneath the Crimson Dunes',
-    //             'author' => 'Tobias Greaves',
-    //             'image' => 'covers/5.png',
-    //             'description' => 'Red sands stretch endlessly, concealing ruins of forgotten empires. A lone wanderer searches for a lost artifact, uncovering treachery, legends, and secrets buried beneath centuries of shifting desert winds.',
-    //         ],
+            [
+                 'title' => 'Beneath the Crimson Dunes',
+                 'author' => 'Tobias Greaves',
+                 'image' => 'covers/5.png',
+                'description' => 'Red sands stretch endlessly, concealing ruins of forgotten empires. A lone wanderer searches for a lost artifact, uncovering treachery, legends, and secrets buried beneath centuries of shifting desert winds.',
+         ],
     //         [
     //             'title' => 'The Moonlist Masquerade',
     //             'author' => 'Isabelle Corwin',
