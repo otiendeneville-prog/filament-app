@@ -27,12 +27,12 @@ class BookSeeder extends Seeder
                 'image' => 'covers/2.png',
                  'description' => 'Amid a ruined world, a phoenix rises from ashes carrying humanity’s last hope. The story burns with themes of resilience, rebirth, and courage when despair seems the only choice left.',
             ],
-    //         [
-    //             'title' => 'Whispers of the Iron Sea',
-    //             'author' => 'Clara Duskbane',
-    //             'image' => 'covers/3.png',
-    //             'description' => 'Fog-draped waters conceal more than shifting tides. Sailors speak of voices beneath the waves, and one haunted captain must decide whether to chase freedom or succumb to the sea’s eerie call.',
-    //         ],
+            [
+                'title' => 'Whispers of the Iron Sea',
+                 'author' => 'Clara Duskbane',
+                'image' => 'covers/3.png',
+                 'description' => 'Fog-draped waters conceal more than shifting tides. Sailors speak of voices beneath the waves, and one haunted captain must decide whether to chase freedom or succumb to the sea’s eerie call.',
+          ],
     //         [
     //             'title' => 'Song of the Hollow Woods',
     //             'author' => 'Evelyn Harrow',
