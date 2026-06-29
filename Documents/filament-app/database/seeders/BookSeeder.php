@@ -99,12 +99,12 @@ class BookSeeder extends Seeder
                  'image' => 'covers/14.png',
                 'description' => 'The world froze when the sky shattered into silence. Carrying only a lantern, a wanderer journeys through broken lands seeking answers, unaware that hope still glimmers within the quiet darkness.',
              ],
-    //         [
-    //             'title' => 'Echoes in Glass Tower',
-    //             'author' => 'Selene Marrow',
-    //             'image' => 'covers/15.png',
-    //             'description' => 'A shimmering tower rises into the night, its walls alive with echoes of the past. One dreamer ascends, unraveling truths whispered by spirits bound within crystalline halls.',
-    //         ],
+             [
+               'title' => 'Echoes in Glass Tower',
+                'author' => 'Selene Marrow',
+                'image' => 'covers/15.png',
+                'description' => 'A shimmering tower rises into the night, its walls alive with echoes of the past. One dreamer ascends, unraveling truths whispered by spirits bound within crystalline halls.',
+            ],
     //     ];
 
     //     foreach ($books as $book) {
