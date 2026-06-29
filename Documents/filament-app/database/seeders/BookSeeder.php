@@ -63,13 +63,13 @@ class BookSeeder extends Seeder
                 'image' => 'covers/8.png',
                 'description' => 'Every map drawn by the cursed cartographer reshapes the world itself. When a daring apprentice discovers this power, she must decide whether to chart salvation or unleash devastating ruin.',
            ],
-    //         [
-    //             'title' => 'Ashes of the Starlit Crown',
-    //             'author' => 'Damon Crossfield',
-    //             'image' => 'covers/9.png',
-    //             'description' => 'The shattered crown of an empire glimmers beneath starlight, holding promises of power and doom. Rival heirs clash, while whispers of destiny guide one reluctant hero into the heart of fire.',
-    //         ],
-    //         [
+             [
+                'title' => 'Ashes of the Starlit Crown',
+                 'author' => 'Damon Crossfield',
+               'image' => 'covers/9.png',
+              'description' => 'The shattered crown of an empire glimmers beneath starlight, holding promises of power and doom. Rival heirs clash, while whispers of destiny guide one reluctant hero into the heart of fire.',
+             ],
+            [
     //             'title' => 'The Keeper of Vanishing Keys',
     //             'author' => 'Marjorie Quinn',
     //             'image' => 'covers/10.png',
