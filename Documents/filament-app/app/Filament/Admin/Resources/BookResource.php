@@ -11,6 +11,7 @@ use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
 use Filament\Forms\Components\TextInput;
+use Filament\Tables\Columns\ImageColumn;
 
 class BookResource extends Resource
 {
@@ -19,8 +20,6 @@ class BookResource extends Resource
     protected static ?string $navigationIcon = 'heroicon-o-book-open';
 
     public static function form(Form $form): Form
-
-    
     {
         return $form
             ->schema([
@@ -32,7 +31,12 @@ class BookResource extends Resource
                     ->maxLength(255),
                 TextInput::make('description')
                     ->maxLength(500),
-                FileUpload::make('image'),
+                FileUpload::make('image')
+                    ->directory('covers') 
+                    ->disk('public'),
+                //      FileUpload::make('image')
+                // ->disk('public')
+                // ->directory('covers'),     
             ]);
     }
 
@@ -40,10 +44,12 @@ class BookResource extends Resource
     {
         return $table
             ->columns([
+              
                 Tables\Columns\TextColumn::make('title')->searchable()->sortable(),
                 Tables\Columns\TextColumn::make('author')->searchable()->sortable(),
                 Tables\Columns\TextColumn::make('description')->limit(50),
                 Tables\Columns\TextColumn::make('created_at')->dateTime()->sortable(),
+                Tables\Columns\ImageColumn::make('image')->url(fn ($record) => asset($record->image))->square(),               
             ])
             ->filters([])
             ->actions([
@@ -69,8 +75,9 @@ class BookResource extends Resource
             'edit' => Pages\EditBook::route('/{record}/edit'),
         ];
     }
+
     public static function canCreate(): bool
-{
-    return true;
-}
+    {
+        return true;
+    }
 }
