@@ -22,11 +22,11 @@ class BookSeeder extends Seeder
                 'description' => 'A mysterious castle awakens under the moonlight as forgotten powers stir. One wanderer must confront ancient shadows, unravel hidden truths, and embrace a destiny bound to secrets older than memory itself.',
             ],
             [
-    //             'title' => 'The Last Ember',
-    //             'author' => 'Marcus Valen',
-    //             'image' => 'covers/2.png',
-    //             'description' => 'Amid a ruined world, a phoenix rises from ashes carrying humanity’s last hope. The story burns with themes of resilience, rebirth, and courage when despair seems the only choice left.',
-    //         ],
+                 'title' => 'The Last Ember',
+                'author' => 'Marcus Valen',
+                'image' => 'covers/2.png',
+                 'description' => 'Amid a ruined world, a phoenix rises from ashes carrying humanity’s last hope. The story burns with themes of resilience, rebirth, and courage when despair seems the only choice left.',
+            ],
     //         [
     //             'title' => 'Whispers of the Iron Sea',
     //             'author' => 'Clara Duskbane',
