@@ -75,12 +75,12 @@ class BookSeeder extends Seeder
                 'image' => 'covers/10.png',
                 'description' => 'Keys that unlock doors to forgotten worlds are vanishing. Their mysterious keeper must face betrayal and courage, protecting reality’s fragile balance before every locked secret fades forever into nothingness.',
            ],
-    //         [
-    //             'title' => 'Beyond the Frosted Veil',
-    //             'author' => 'Nathanel Crowe',
-    //             'image' => 'covers/11.png',
-    //             'description' => 'Through shimmering frost and spectral lights lies a gateway to hidden realms. A lone traveler must brave frozen paths to uncover truths veiled by ice and time’s relentless silence.',
-    //         ],
+            [
+                 'title' => 'Beyond the Frosted Veil',
+                'author' => 'Nathanel Crowe',
+                'image' => 'covers/11.png',
+                 'description' => 'Through shimmering frost and spectral lights lies a gateway to hidden realms. A lone traveler must brave frozen paths to uncover truths veiled by ice and time’s relentless silence.',
+             ],
     //         [
     //             'title' => 'Lanterns at the Edge of Dawn',
     //             'author' => 'Seraphine Hale',
