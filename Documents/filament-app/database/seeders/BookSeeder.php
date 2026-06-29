@@ -105,15 +105,15 @@ class BookSeeder extends Seeder
                 'image' => 'covers/15.png',
                 'description' => 'A shimmering tower rises into the night, its walls alive with echoes of the past. One dreamer ascends, unraveling truths whispered by spirits bound within crystalline halls.',
             ],
-    //     ];
+        ];
 
-    //     foreach ($books as $book) {
-    //         Book::create([
-    //             'title' => $book['title'],
-    //             'author' => $book['author'],
-    //             'image' => $book['image'],
-    //             'description' => $book['description']
-    //         ]);
-    //     }
-    // }
+        foreach ($books as $book) {
+             Book::create([
+                 'title' => $book['title'],
+                'author' => $book['author'],
+               'image' => $book['image'],
+                'description' => $book['description']
+            ]);
+         }
+     }
 }
