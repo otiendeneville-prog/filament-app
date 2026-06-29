@@ -70,11 +70,11 @@ class BookSeeder extends Seeder
               'description' => 'The shattered crown of an empire glimmers beneath starlight, holding promises of power and doom. Rival heirs clash, while whispers of destiny guide one reluctant hero into the heart of fire.',
              ],
             [
-    //             'title' => 'The Keeper of Vanishing Keys',
-    //             'author' => 'Marjorie Quinn',
-    //             'image' => 'covers/10.png',
-    //             'description' => 'Keys that unlock doors to forgotten worlds are vanishing. Their mysterious keeper must face betrayal and courage, protecting reality’s fragile balance before every locked secret fades forever into nothingness.',
-    //         ],
+               'title' => 'The Keeper of Vanishing Keys',
+                'author' => 'Marjorie Quinn',
+                'image' => 'covers/10.png',
+                'description' => 'Keys that unlock doors to forgotten worlds are vanishing. Their mysterious keeper must face betrayal and courage, protecting reality’s fragile balance before every locked secret fades forever into nothingness.',
+           ],
     //         [
     //             'title' => 'Beyond the Frosted Veil',
     //             'author' => 'Nathanel Crowe',
