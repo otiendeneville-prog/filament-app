@@ -87,12 +87,12 @@ class BookSeeder extends Seeder
                  'image' => 'covers/12.png',
                'description' => 'Lanterns drift across twilight skies, guiding lost souls toward hope. A young seeker follows their glow into a forgotten forest, where every light reveals secrets of past choices and redemption.',
              ],
-    //         [
-    //             'title' => 'The Clockmaker’s Secret',
-    //             'author' => 'Rowan Fletcher',
-    //             'image' => 'covers/13.png',
-    //             'description' => 'Among towering gears and ticking brass lies a key to timeless mysteries. The clockmaker guards his secret, knowing that unlocking it could reshape destiny, or unravel the fabric of reality.',
-    //         ],
+             [
+                'title' => 'The Clockmaker’s Secret',
+                 'author' => 'Rowan Fletcher',
+                'image' => 'covers/13.png',
+                 'description' => 'Among towering gears and ticking brass lies a key to timeless mysteries. The clockmaker guards his secret, knowing that unlocking it could reshape destiny, or unravel the fabric of reality.',
+             ],
     //         [
     //             'title' => 'When the Sky Fell Silent',
     //             'author' => 'Adrian Locke',
