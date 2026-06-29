@@ -81,12 +81,12 @@ class BookSeeder extends Seeder
                 'image' => 'covers/11.png',
                  'description' => 'Through shimmering frost and spectral lights lies a gateway to hidden realms. A lone traveler must brave frozen paths to uncover truths veiled by ice and time’s relentless silence.',
              ],
-    //         [
-    //             'title' => 'Lanterns at the Edge of Dawn',
-    //             'author' => 'Seraphine Hale',
-    //             'image' => 'covers/12.png',
-    //             'description' => 'Lanterns drift across twilight skies, guiding lost souls toward hope. A young seeker follows their glow into a forgotten forest, where every light reveals secrets of past choices and redemption.',
-    //         ],
+            [
+                 'title' => 'Lanterns at the Edge of Dawn',
+                 'author' => 'Seraphine Hale',
+                 'image' => 'covers/12.png',
+               'description' => 'Lanterns drift across twilight skies, guiding lost souls toward hope. A young seeker follows their glow into a forgotten forest, where every light reveals secrets of past choices and redemption.',
+             ],
     //         [
     //             'title' => 'The Clockmaker’s Secret',
     //             'author' => 'Rowan Fletcher',
