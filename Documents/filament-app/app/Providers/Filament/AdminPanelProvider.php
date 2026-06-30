@@ -26,6 +26,8 @@ class AdminPanelProvider extends PanelProvider
             ->default()
             ->id('admin')
             ->path('admin')
+             ->brandName(name:'Nesh')
+             
             // ->login()
             // ->registration()
             // ->passwordReset()

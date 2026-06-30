@@ -34,9 +34,9 @@ class BookResource extends Resource
                 FileUpload::make('image')
                     ->directory('covers') 
                     ->disk('public'),
-                //      FileUpload::make('image')
-                // ->disk('public')
-                // ->directory('covers'),     
+                     FileUpload::make('image')
+                ->disk('public')
+                ->directory('covers'),     
             ]);
     }
 
