@@ -25,9 +25,10 @@ class AdminPanelProvider extends PanelProvider
         return $panel
             ->default()
             ->id('admin')
-            ->path('admin')
-             ->brandName(name:'Nesh')
-             
+            ->path('admin') 
+             ->brandName('Nesh')
+             ->brandLogo(asset('images/logo.png'))  
+            
             // ->login()
             // ->registration()
             // ->passwordReset()

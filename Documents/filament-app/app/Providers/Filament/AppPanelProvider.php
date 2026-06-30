@@ -28,6 +28,7 @@ class AppPanelProvider extends PanelProvider
             ->path('')
             ->login()
             ->login()
+             ->brandLogo(logo:'images/logo.png')
             ->registration()
             ->passwordReset()
             ->profile()
