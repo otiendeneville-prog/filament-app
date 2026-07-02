@@ -26,14 +26,12 @@ class AdminPanelProvider extends PanelProvider
             ->default()
             ->id('admin')
             ->path('admin')
-            ->profile() 
-             ->brandName('Nesh')
-             ->brandLogo(asset('images/logo.png')) 
+            ->profile()
+            ->brandName('Nesh')
+            ->brandLogo(asset('images/logo.png')) 
+            ->brandLogoHeight('2.4rem')
+            ->font('Source San 3')
 
-            // ->login()
-            // ->registration()
-            // ->passwordReset()
-            // ->profile()
             ->colors([
                 'primary' => Color::Lime,
             ])
