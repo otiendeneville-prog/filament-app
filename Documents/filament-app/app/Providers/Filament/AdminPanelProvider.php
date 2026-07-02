@@ -31,6 +31,7 @@ class AdminPanelProvider extends PanelProvider
             ->brandLogo(asset('images/logo.png')) 
             ->brandLogoHeight('2.4rem')
             ->font('Source San 3')
+            ->viteTheme('resources/css/filament/theme.css')
 
             ->colors([
                 'primary' => Color::Lime,
