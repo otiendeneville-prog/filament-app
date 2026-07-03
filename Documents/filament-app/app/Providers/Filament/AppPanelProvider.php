@@ -31,6 +31,8 @@ class AppPanelProvider extends PanelProvider
             ->registration()
             ->passwordReset()
             ->profile()
+            ->font('Source San 3')
+            ->brandLogoHeight('2.4rem')
             ->colors([
                 'primary' => Color::Lime,
             ])
