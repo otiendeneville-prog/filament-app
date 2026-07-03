@@ -31,8 +31,10 @@ class AppPanelProvider extends PanelProvider
             ->registration()
             ->passwordReset()
             ->profile()
+            ->font('Source San 3')
+            ->brandLogoHeight('2.4rem')
             ->colors([
-                'primary' => Color::Amber,
+                'primary' => Color::Lime,
             ])
             ->discoverResources(in: app_path('Filament/App/Resources'), for: 'App\\Filament\\App\\Resources')
             ->discoverPages(in: app_path('Filament/App/Pages'), for: 'App\\Filament\\App\\Pages')
