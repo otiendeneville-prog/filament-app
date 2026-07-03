@@ -30,13 +30,14 @@ class BookResource extends Resource
                     ->required()
                     ->maxLength(255),
                 TextInput::make('description')
-                    ->maxLength(500),
-                FileUpload::make('image')
-                    ->directory('covers') 
-                    ->disk('public'),
-                     FileUpload::make('image')
-                ->disk('public')
-                ->directory('covers'),     
+                    ->maxLength(500)
+                // FileUpload::make('image')
+                //     ->directory('covers') 
+                //     ->disk('public'),
+                //      FileUpload::make('image')
+                // ->disk('public')
+                // ->directory('covers')
+                ,     
             ]);
     }
 
@@ -49,7 +50,7 @@ class BookResource extends Resource
                 Tables\Columns\TextColumn::make('author')->searchable()->sortable(),
                 Tables\Columns\TextColumn::make('description')->limit(50),
                 Tables\Columns\TextColumn::make('created_at')->dateTime()->sortable(),
-                Tables\Columns\ImageColumn::make('image')->url(fn ($record) => asset($record->image))->square(),               
+                // Tables\Columns\ImageColumn::make('image')->url(fn ($record) => asset($record->image))->square(),               
             ])
             ->filters([])
             ->actions([
