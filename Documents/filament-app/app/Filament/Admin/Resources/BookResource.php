@@ -50,10 +50,11 @@ class BookResource extends Resource
                 Tables\Columns\TextColumn::make('author')->searchable()->sortable(),
                 Tables\Columns\TextColumn::make('description')->limit(50),
                 Tables\Columns\TextColumn::make('created_at')->dateTime()->sortable(),
-                // Tables\Columns\ImageColumn::make('image')->url(fn ($record) => asset($record->image))->square(),               
+                Tables\Columns\ImageColumn::make('image')->url(fn ($record) => asset($record->image))->square(),               
             ])
             ->filters([])
             ->actions([
+                Tables\Actions\ViewAction::make(),
                 Tables\Actions\EditAction::make(),
             ])
             ->bulkActions([
