@@ -54,6 +54,7 @@ class BookResource extends Resource
             ])
             ->filters([])
             ->actions([
+                Tables\Actions\ViewAction::make(),
                 Tables\Actions\EditAction::make(),
             ])
             ->bulkActions([
