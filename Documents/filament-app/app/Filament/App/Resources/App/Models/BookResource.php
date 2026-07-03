@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Filament\App\Resources;
+namespace App\Filament\App\Resources\App\Models;
 
-use App\Filament\App\Resources\BookResource\Pages;
-use App\Filament\App\Resources\BookResource\RelationManagers;
-use App\Models\Book;
+use App\Filament\App\Resources\App\Models\BookResource\Pages;
+use App\Filament\App\Resources\App\Models\BookResource\RelationManagers;
+use App\Models\App\Models\Book;
 use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
