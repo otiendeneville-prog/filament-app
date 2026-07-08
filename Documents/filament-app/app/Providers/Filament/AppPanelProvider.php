@@ -28,6 +28,7 @@ class AppPanelProvider extends PanelProvider
             ->path('')
             ->login()
             ->registration()
+            ->brandName("BookNest")
             ->passwordReset()
             ->profile()
             ->font('Source San 3')
