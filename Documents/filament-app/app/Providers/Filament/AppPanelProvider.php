@@ -36,8 +36,8 @@ class AppPanelProvider extends PanelProvider
             ->brandLogo('images/logo.png')
             ->brandLogoHeight('2.4rem')
             ->colors([
-                'primary' => 'oklc(0.778 0.175 124.8)',
-                'gray' =>Color::Slate,
+                'primary' => Color::Lime,
+                'gray' => Color::Slate,
             ])
             ->discoverResources(in: app_path('Filament/Admin/Resources'), for: 'App\\Filament\\Admin\\Resources')
             
