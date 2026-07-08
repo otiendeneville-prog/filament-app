@@ -35,6 +35,7 @@ class AppPanelProvider extends PanelProvider
             ->brandLogoHeight('2.4rem')
             ->brandLogo('images/logo.png')
             ->brandLogoHeight('2.4rem')
+            ->font('Sans Serif 3')
             ->colors([
                 'primary' => Color::Lime,
                 'gray' => Color::Slate,
