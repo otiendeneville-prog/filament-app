@@ -15,7 +15,7 @@ use Filament\Tables\Columns\ImageColumn;
 
 class BookResource extends Resource
 {
-    protected static ?string $model = Book::class;
+    protected static ?string $model = \App\Models\Book::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-book-open';
 
@@ -37,7 +37,7 @@ class BookResource extends Resource
                 //      FileUpload::make('image')
                 // ->disk('public')
                 // ->directory('covers')
-                ,     
+                    
             ]);
     }
 
@@ -50,7 +50,7 @@ class BookResource extends Resource
                 Tables\Columns\TextColumn::make('author')->searchable()->sortable(),
                 Tables\Columns\TextColumn::make('description')->limit(50),
                 Tables\Columns\TextColumn::make('created_at')->dateTime()->sortable(),
-                Tables\Columns\ImageColumn::make('image')->url(fn ($record) => asset($record->image))->square(),               
+                // Tables\Columns\ImageColumn::make('image')->url(fn ($record) => asset($record->image))->square(),               
             ])
             ->filters([])
             ->actions([

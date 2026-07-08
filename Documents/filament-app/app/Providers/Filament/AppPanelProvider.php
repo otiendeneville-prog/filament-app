@@ -28,14 +28,19 @@ class AppPanelProvider extends PanelProvider
             ->path('')
             ->login()
             ->registration()
+            ->brandName("BookNest")
             ->passwordReset()
             ->profile()
             ->font('Source San 3')
             ->brandLogoHeight('2.4rem')
+            ->brandLogo('images/logo.png')
+            ->brandLogoHeight('2.4rem')
+            ->font('Sans Serif 3')
             ->colors([
                 'primary' => Color::Lime,
+                'gray' => Color::Slate,
             ])
-            ->discoverResources(in: app_path('Filament/App/Resources'), for: 'App\\Filament\\App\\Resources')
+            ->discoverResources(in: app_path('Filament/Admin/Resources'), for: 'App\\Filament\\Admin\\Resources')
             
                   
             ->discoverPages(in: app_path('Filament/App/Pages'), for: 'App\\Filament\\App\\Pages')
